@@ -49,7 +49,7 @@ services:
     ports:
       - 8080:8080
     environment: 
-      - DB_NAME=email_sender
+      - DB_NAME=abc_sender
   queue:
     image: redis:3.2
     networks:
